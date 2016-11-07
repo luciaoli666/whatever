@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<title>LUCIA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6{font-family: "Didot", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+
+
+<!-- Icon Bar (Sidenav - hidden on small screens) -->
+<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+  <!-- Avatar image in top left corner -->
+  <img src="/img/lucia1.jpeg" style="width:100%">
+  <a class="w3-padding-large w3-black" href="#">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#about">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#WORK">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>WORK</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#contact">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <ul class="w3-navbar w3-left-align w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <li class="w3-left" style="width:25% !important"><a href="#">HOME</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#about">ABOUT</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#photos">WORK</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#contact">CONTACT</a></li>
+  </ul>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"> LUCIA C. OLIVERI</h1>
+    <p>ANIMATOR | DESIGNER.</p>
+
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-gold">WHO AM I?</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> START BIO
+    </p>
+
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey"></h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/img/woman.png" style="width:100%">
+        <img src="/img/seashore.jpg" style="width:100%">
+        <img src="/img/silvermodel.png" style="width:100%">
+      </div>
+
+<video id="sampleMovie" src="/img/LuciaOliveri_Primitives.oggtheora.ogv" width="450" height="350" preload controls></video>
+
+<script>
+var myVideo = document.getElementById("sampleMovie");
+
+function playPause() {
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.pause();
+}
+
+function makeBig() {
+    myVideo.width = 560;
+}
+
+function makeSmall() {
+    myVideo.width = 320;
+}
+
+function makeNormal() {
+    myVideo.width = 420;
+}
+</script>
+
+</body>
+</html>
+
+
+      <div class="w3-half">
+        <img src="/img/fish.png" style="width:100%">
+        <img src="/img/fishcolor.png" style="width:100%">
+        <img src="/img/.jpg" style="width:100%">
+        <img src="/img/3dmodel.png" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <html>
+  <head>
+  <style>
+  div.img {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+
+  div.img:hover {
+      border: 1px solid #777;
+  }
+
+  div.img img {
+      width: 100%;
+      height: auto;
+  }
+
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+  </style>
+  </head>
+  <body>
+
+  <div class="img">
+    <a target="_blank" href="Lucia1.jpeg">
+      <img src="Lucia1.jpeg" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+
+  <div class="img">
+    <a target="_blank" href="forest.jpg">
+      <img src="forest.jpg" alt="Forest" width="300" height="200">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+
+  <div class="img">
+    <a target="_blank" href="lights.jpg">
+      <img src="lights.jpg" alt="Northern Lights" width="300" height="200">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+
+  <div class="img">
+    <a target="_blank" href="mountains.jpg">
+      <img src="mountains.jpg" alt="Mountains" width="300" height="200">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+
+  </body>
+  </html>
+
+
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Connecticut, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 203 505 1629</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: lucia.oliveri@uconn.edu</p>
+    </div><br>
+
+    <p>Inquiries:</p>
+    <p><input class="w3-input w3-border w3-padding-16" type="text" placeholder="Name"></p>
+    <p><input class="w3-input w3-border w3-padding-16" type="text" placeholder="Email"></p>
+    <p><input class="w3-input w3-border w3-padding-16" type="text" placeholder="Subject"></p>
+    <p><input class="w3-input w3-border w3-padding-16" type="text" placeholder="Comment"></p>
+    <p><button class="w3-btn w3-light-grey w3-padding-large w3-hover-grey">
+      <i class="fa fa-paper-plane"></i> SEND MESSAGE
+    </button></p>
+  <!-- End Contact Section -->
+  </div>
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+    <a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="w3-hover-text-grey"><i class="fa fa-flickr"></i></a>
+    <a href="#" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+    <p class="w3-medium">Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
